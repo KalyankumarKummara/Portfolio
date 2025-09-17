@@ -6,9 +6,9 @@ import project2Image from "../assets/profile4.png";
 
 const projects = [
   {
-    title: "Temple Service Request Platform",
+    title: "DataBridge",
     description:
-      "Devalaya Seva is a dedicated platform that enables villagers to request support from TTD for the construction and renovation of local temples. It serves as a bridge between rural communities and TTD authorities, streamlining the process of submitting, managing, and tracking temple-related service requests with transparency and devotion.",
+      "This was my first project, developed to gain hands-on experience in building both the frontend and backend, integrating them seamlessly, and working with a database to store and retrieve data for displaying within the application.",
     techStack: ["HTML", "CSS", "Bootstrap", "JavaScript", "FastAPI", "MongoDB"],
     github: "https://github.com/KalyankumarKummara/First-Web-Project",
     demo: "https://first-web-project-vdqu.onrender.com/",
