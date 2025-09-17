@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import project1Image from "../assets/profile3.jpg";
 import project2Image from "../assets/profile4.png";
+import Currencyimage from "../assets/Currency_Converter.jpg"
 
 const projects = [
   {
@@ -23,6 +24,17 @@ const projects = [
     demo: "https://studentinternshipmanagementsystem.netlify.app",
     image: project2Image,
   },
+  
+{
+  title: "Currency Converter App",
+  description:
+    "A mobile app for real-time currency conversions across multiple currencies. Designed with a clean UI and deployed as an Android APK. Built to strengthen mobile app development skills.",
+  techStack: ["Flutter", "Dart"],
+  github: "https://github.com/KalyankumarKummara/currency-converter",
+  demo: "https://drive.google.com/uc?export=download&id=1-iIc32P2YfQdf6VsazN1I0BOLbl2ldaF",
+  image: Currencyimage,
+},
+
 ];
 
 const ProjectItem = ({ project, index }) => {
