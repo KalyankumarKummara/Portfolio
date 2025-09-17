@@ -6,7 +6,7 @@ import project2Image from "../assets/profile4.png";
 
 const projects = [
   {
-    title: "Devalaya Seva",
+    title: "Temple Service Request Platform",
     description:
       "Devalaya Seva is a dedicated platform that enables villagers to request support from TTD for the construction and renovation of local temples. It serves as a bridge between rural communities and TTD authorities, streamlining the process of submitting, managing, and tracking temple-related service requests with transparency and devotion.",
     techStack: ["HTML", "CSS", "Bootstrap", "JavaScript", "FastAPI", "MongoDB"],
