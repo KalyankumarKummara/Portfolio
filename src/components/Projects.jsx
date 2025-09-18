@@ -9,15 +9,6 @@ import currencyImage from "D:/portfolio/frontend/frontend/src/assets/currency.jp
 
 const projects = [
   {
-    title: "DataBridge",
-    description:
-      "This was my first project, developed to gain hands-on experience in building both the frontend and backend, integrating them seamlessly, and working with a database to store and retrieve data for displaying within the application.",
-    techStack: ["HTML", "CSS", "Bootstrap", "JavaScript", "FastAPI", "MongoDB"],
-    github: "https://github.com/KalyankumarKummara/First-Web-Project",
-    demo: "https://first-web-project-vdqu.onrender.com/",
-    image: project1Image,
-  },
-  {
     title: "Student Internship Management System",
     description:
       "A web-based platform that bridges the gap between companies and students by streamlining the internship process. Companies can post opportunities, and students can explore and apply based on skills and interests. It promotes career growth and industry-academia collaboration.",
@@ -36,7 +27,15 @@ const projects = [
   demo: "https://drive.google.com/uc?export=download&id=1-iIc32P2YfQdf6VsazN1I0BOLbl2ldaF",
   image: currencyImage,
 },
-
+{
+    title: "DataBridge",
+    description:
+      "This was my first project, developed to gain hands-on experience in building both the frontend and backend, integrating them seamlessly, and working with a database to store and retrieve data for displaying within the application.",
+    techStack: ["HTML", "CSS", "Bootstrap", "JavaScript", "FastAPI", "MongoDB"],
+    github: "https://github.com/KalyankumarKummara/First-Web-Project",
+    demo: "https://first-web-project-vdqu.onrender.com/",
+    image: project1Image,
+  },
 ];
 
 const ProjectItem = ({ project, index }) => {
