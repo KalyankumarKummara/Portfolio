@@ -3,7 +3,9 @@ import { useState, useEffect } from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import project1Image from "../assets/profile3.jpg";
 import project2Image from "../assets/profile4.png";
-import Currencyimage from "../assets/Currency_Converter.jpg"
+import currencyImage from "D:/portfolio/frontend/frontend/src/assets/currency.jpg"
+
+
 
 const projects = [
   {
@@ -28,11 +30,11 @@ const projects = [
 {
   title: "Currency Converter App",
   description:
-    "A mobile app for real-time currency conversions across multiple currencies. Designed with a clean UI and deployed as an Android APK. Built to strengthen mobile app development skills.",
+    "A mobile app for currency conversion from USD to INR. Designed with a clean UI and deployed as an Android APK. Built to strengthen mobile app development skills.",
   techStack: ["Flutter", "Dart"],
-  github: "https://github.com/KalyankumarKummara/currency-converter",
+  github: "https://github.com/KalyankumarKummara/Currency_converter",
   demo: "https://drive.google.com/uc?export=download&id=1-iIc32P2YfQdf6VsazN1I0BOLbl2ldaF",
-  image: Currencyimage,
+  image: currencyImage,
 },
 
 ];
@@ -102,7 +104,8 @@ const ProjectItem = ({ project, index }) => {
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 flex-1 py-3 px-4 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 text-gray-900 font-medium hover:opacity-90 transition"
           >
-            <FaExternalLinkAlt /> Live Demo
+            <FaExternalLinkAlt />
+             {project.title === "Currency Converter App" ? "Download APK" : "Live Demo"}
           </a>
         </div>
       </motion.div>
