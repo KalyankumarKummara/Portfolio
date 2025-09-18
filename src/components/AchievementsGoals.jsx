@@ -54,7 +54,7 @@ export default function AchievementsGoalsSection() {
           ["🏆", "Infosys Springboard - HTML5 Course", "Completed HTML5 fundamentals for modern and responsive web development."],
           ["🏆", "Infosys Springboard - CSS Course", "Learned core concepts of CSS for styling, layouts, and responsive design."],
           ["🏆", "121 State Rank - ECET 2023", "Secured an outstanding rank among thousands of participants in ECET 2023."],
-          ["🏆", "6 Months Internship - Python Full Stack Developer (Exafluence)", "Developed and deployed end-to-end applications integrating frontend, backend, and databases."],
+          ["🏆", "6 Months Internship - Python Full Stack Trainee (Exafluence)", "Developed and deployed end-to-end applications integrating frontend, backend, and databases."],
           ["🏆", "Academic Excellence Award - Diploma", "Recognized for exceptional academic performance during Diploma studies."],
           ["🏆", "Autonomous Vehicle Project (IoT & C Language)", "Designed and implemented an IoT-powered autonomous vehicle as a final semester project."]
         ].map(([icon, title, desc], i) => (
@@ -96,7 +96,6 @@ export default function AchievementsGoalsSection() {
         </h3>
 
         {[
-          ["🎯", "Learn App Development with Dart & Flutter", "Enhance skills in cross-platform mobile app development."],
           ["🎯", "Get Placed in a Good Company", "Aim to join a growth-oriented and innovative organization."],
           ["🎯", "Stay Updated with Trending Technologies", "Continuously expand technical expertise in emerging tools and frameworks."],
           ["🎯", "Develop and Publish a Mobile App", "Create a functional, impactful application for real-world use."]
