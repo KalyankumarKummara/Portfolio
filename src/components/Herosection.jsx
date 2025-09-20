@@ -81,7 +81,7 @@ export default function HeroSection() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             href="#projects"
-            className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/30 transition-all"
+            className="px-4 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/30 transition-all whitespace-nowrap "
           >
             Explore My Work
           </motion.a>
@@ -92,7 +92,7 @@ export default function HeroSection() {
             href={`${import.meta.env.BASE_URL}resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-lg font-semibold text-white hover:shadow-lg hover:shadow-indigo-500/30 transition-all"
+            className="px-8 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-lg font-semibold text-white hover:shadow-lg hover:shadow-indigo-500/30 transition-all whitespace-nowrap"
           >
             View Resume
           </motion.a>
@@ -102,7 +102,7 @@ export default function HeroSection() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             href="#contact"
-            className="px-8 py-3 border-2 border-cyan-400/50 rounded-lg hover:border-cyan-400 hover:bg-cyan-400/10 transition-all"
+            className="px-8 py-3 border-2 border-cyan-400/50 rounded-lg hover:border-cyan-400 hover:bg-cyan-400/10 transition-all "
           >
             Let's Connect
           </motion.a>
