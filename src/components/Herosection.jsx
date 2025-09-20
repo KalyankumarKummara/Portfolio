@@ -89,7 +89,7 @@ export default function HeroSection() {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href={`${import.meta.env.BASE_URL}resume.pdf`}
+            href={`${import.meta.env.BASE_URL}Kalyankumar.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-lg font-semibold text-white hover:shadow-lg hover:shadow-indigo-500/30 transition-all whitespace-nowrap"
