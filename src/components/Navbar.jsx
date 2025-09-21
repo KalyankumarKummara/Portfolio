@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
+import ShareButton from "../components/ShareButton";
 
 const Navbar = ({ animationComplete }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -93,6 +94,8 @@ const Navbar = ({ animationComplete }) => {
                     </motion.button>
                   ))}
                 </motion.div>
+                <ShareButton />
+                
               </div>
 
               {/* Mobile Hamburger */}
