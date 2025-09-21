@@ -122,7 +122,7 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="relative py-20 px-4 md:px-8 bg-gradient-to-b from-gray-250 to-gray-250 overflow-hidden"
+      className="relative  px-4 md:px-8 bg-gradient-to-b from-gray-250 to-gray-250 overflow-hidden"
     >
       {/* Glow backgrounds */}
       <div className="absolute top-20 left-10 w-40 h-40 rounded-full bg-cyan-500/10 blur-3xl -z-10" />
@@ -138,7 +138,7 @@ export default function ProjectsSection() {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent"
+          className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-to-r pb-4 from-cyan-400 to-blue-500 bg-clip-text text-transparent"
         >
            My Projects
         </motion.h2>
