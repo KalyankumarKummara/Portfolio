@@ -5,8 +5,6 @@ import ShareButton from "./ShareButton";
 
 export default function HeroSection() {
   const [imageLoaded, setImageLoaded] = useState(true);
-
-  // Roles for looping animation
   const roles = [
     "Full-Stack Developer",
     "Mobile Application Developer",
@@ -17,13 +15,12 @@ export default function HeroSection() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentRoleIndex((prevIndex) => (prevIndex + 1) % roles.length);
-    }, 3000); // change every 3 seconds
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
   return (
     <section className="min-h-screen flex flex-col sm:flex-row items-center text-white max-w-6xl mx-auto px-6 py-20">
-      {/* Image Section */}
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
@@ -47,7 +44,6 @@ export default function HeroSection() {
         </div>
       </motion.div>
 
-      {/* Text Section */}
       <motion.div
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
@@ -61,7 +57,6 @@ export default function HeroSection() {
           Kalyankumar
         </h1>
 
-        {/* Looping role animation */}
         <motion.h2
           key={currentRoleIndex}
           className="text-2xl sm:text-3xl text-gray-300 font-semibold mb-8"
@@ -74,9 +69,9 @@ export default function HeroSection() {
         </motion.h2>
 
         <p className="text-gray-400 leading-relaxed mb-8 max-w-xl mx-auto sm:mx-0">
-          I specialize in building user-friendly websites and mobile applications using modern technologies. With a strong passion for full-stack development, mobile app development, and AI, I bring hands-on experience across both frontend and backend. I am continuously exploring new tools and frameworks to enhance my expertise and deliver seamless, scalable, and innovative digital solutions.</p>
+          I specialize in building user-friendly websites and mobile applications using modern technologies. With a strong passion for full-stack development, mobile app development, and AI, I bring hands-on experience across both frontend and backend. I am continuously exploring new tools and frameworks to enhance my expertise and deliver seamless, scalable, and innovative digital solutions.
+        </p>
 
-        {/* Call to Action */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center sm:justify-start">
           <motion.a
             whileHover={{ scale: 1.05 }}
@@ -98,7 +93,6 @@ export default function HeroSection() {
             View Resume
           </motion.a>
 
-
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -107,7 +101,8 @@ export default function HeroSection() {
           >
             Let's Connect
           </motion.a>
-           <ShareButton />
+
+          <ShareButton />
         </div>
       </motion.div>
     </section>
