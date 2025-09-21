@@ -134,11 +134,11 @@ export default function ProjectsSection() {
       </div>
 
       {/* Title */}
-      <div className="max-w-6xl mx-auto text-center mb-20">
+      <div className="max-w-6xl mx-auto text-center mb-0">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent"
+          className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent"
         >
            My Projects
         </motion.h2>
@@ -146,7 +146,7 @@ export default function ProjectsSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
-          className="text-gray-400 max-w-2xl mx-auto text-lg"
+          className="text-gray-400 mx-auto text-lg"
         >
           A showcase of my recent work — crafted with passion, precision, and a
           touch of creativity.
