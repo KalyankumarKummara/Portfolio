@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import profileImage from "../assets/profile1.jpg";
+import profileImage from "../assets/My_img.png";
 import ShareButton from "./ShareButton";
 
 export default function HeroSection() {
