@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import profilePic from "../assets/image1.png";
+import profilePic from "../assets/profile.jpg";
 
 export default function AboutSection() {
   const ref = useRef(null);
