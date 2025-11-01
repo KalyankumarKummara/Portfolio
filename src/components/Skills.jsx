@@ -13,8 +13,6 @@ import bootstrapLogo from "../assets/Bootstrap.png";
 import tailwindLogo from "../assets/Tailwind Css.png";
 import MySQLLogo from "../assets/MySQL.png";
 import Sasslogo from "../assets/Sass.png";
-import Dartlogo from "D:/portfolio/frontend/frontend/src/assets/Dart.png";
-import Flutterlogo from "D:/portfolio/frontend/frontend/src/assets/Flutter.png";
 export default function SkillsSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { margin: "-100px" });
@@ -29,8 +27,6 @@ export default function SkillsSection() {
     { img: MySQLLogo, name: "MySQL" },
     { img: mongodbLogo, name: "MongoDB" },
     { img: Sasslogo, name: "Sass" },
-    { img: Dartlogo, name: "Dart" },
-    {img : Flutterlogo, name: "Flutter" },
     { img: gitLogo, name: "Git" },
     { img: githubLogo, name: "GitHub" },
   ];

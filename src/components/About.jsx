@@ -130,7 +130,7 @@ export default function AboutSection() {
           custom={2}
         >
 
-          My interests lie in full-stack web development, mobile application development, and artificial intelligence. I enjoy learning new technologies and constantly challenge myself to improve. When I’m not coding, you’ll find me exploring new tools and designing UI concepts.
+          My interests lie in full-stack web development and artificial intelligence. I enjoy learning new technologies and constantly challenge myself to improve. When I’m not coding, you’ll find me exploring new tools and designing UI concepts.
           
           </motion.p>
 
@@ -140,8 +140,7 @@ export default function AboutSection() {
           custom={3}
         >
           <p className="text-gray-400 leading-relaxed mb-8 max-w-xl mx-auto sm:mx-0">
-            I am currently focused on sharpening my skills in Dart and Flutter to build expertise in mobile application development. My goal is to create seamless, user-centric applications that are both functional and engaging.
-          </p>
+            I am currently focused on sharpening my skills in full-stack development to build expertise in creating dynamic and scalable web applications. My goal is to develop seamless, user-centric solutions that are both functional and engaging.</p>
         </motion.p>
       </motion.div>
     </motion.section>

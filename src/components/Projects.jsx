@@ -17,16 +17,6 @@ const projects = [
     demo: "https://studentinternshipmanagementsystem.netlify.app",
     image: project2Image,
   },
-  
-{
-  title: "Currency Converter App",
-  description:
-    "A mobile app for currency conversion from USD to INR. Designed with a clean UI and deployed as an Android APK. Built to strengthen mobile app development skills.",
-  techStack: ["Flutter", "Dart"],
-  github: "https://github.com/KalyankumarKummara/Currency_converter",
-  demo: "https://drive.google.com/uc?export=download&id=1-iIc32P2YfQdf6VsazN1I0BOLbl2ldaF",
-  image: currencyImage,
-},
 {
     title: "DataBridge",
     description:

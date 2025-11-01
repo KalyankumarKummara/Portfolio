@@ -7,7 +7,6 @@ export default function HeroSection() {
   const [imageLoaded, setImageLoaded] = useState(true);
   const roles = [
     "Full-Stack Developer",
-    "Mobile Application Developer",
     "AI Enthusiast",
   ];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
@@ -69,7 +68,7 @@ export default function HeroSection() {
         </motion.h2>
 
         <p className="text-gray-400 leading-relaxed mb-8 max-w-xl mx-auto sm:mx-0">
-          I specialize in building user-friendly websites and mobile applications using modern technologies. With a strong passion for full-stack development, mobile app development, and AI, I bring hands-on experience across both frontend and backend. I am continuously exploring new tools and frameworks to enhance my expertise and deliver seamless, scalable, and innovative digital solutions.
+          I specialize in building user-friendly websites using modern technologies. With a strong passion for full-stack development, and AI, I bring hands-on experience across both frontend and backend. I am continuously exploring new tools and frameworks to enhance my expertise and deliver seamless, scalable, and innovative digital solutions.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center sm:justify-start">

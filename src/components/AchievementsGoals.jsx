@@ -98,7 +98,10 @@ export default function AchievementsGoalsSection() {
         {[
           ["🎯", "Get Placed in a Good Company", "Aim to join a growth-oriented and innovative organization."],
           ["🎯", "Stay Updated with Trending Technologies", "Continuously expand technical expertise in emerging tools and frameworks."],
-          ["🎯", "Develop and Publish a Mobile App", "Create a functional, impactful application for real-world use."]
+          ["🎯", "Architect and Deploy Enterprise-Grade Applications","Build and launch scalable, enterprise-level web solutions independently."],
+          ["🎯", "Strengthen Problem-Solving Skills","Enhance logical thinking and debugging abilities to craft efficient, maintainable solutions."],
+          ["🎯", "Master System Design","Gain expertise in designing scalable architectures, APIs, and databases for large applications."],
+          
         ].map(([icon, title, desc], i) => (
           <motion.div
             key={i}
