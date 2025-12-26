@@ -52,8 +52,8 @@ export default function HeroSection() {
         <p className="text-cyan-400 text-lg mb-4 font-mono animate-pulse">
           Hello ! I'm
         </p>
-        <h1 className="text-5xl sm:text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-          Kalyankumar
+        <h1 className="inline-block pb-2 text-5xl sm:text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+         K Kalyankumar 
         </h1>
 
         <motion.h2

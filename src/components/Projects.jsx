@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import project1Image from "../assets/profile3.jpg";
 import project2Image from "../assets/profile4.png";
-import currencyImage from "D:/portfolio/frontend/frontend/src/assets/currency.jpg"
+
 
 
 
@@ -128,7 +128,7 @@ export default function ProjectsSection() {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-to-r pb-4 from-cyan-400 to-blue-500 bg-clip-text text-transparent"
+          className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mt-8 mb-4 bg-gradient-to-r pb-4 from-cyan-400 to-blue-500 bg-clip-text text-transparent"
         >
            My Projects
         </motion.h2>
