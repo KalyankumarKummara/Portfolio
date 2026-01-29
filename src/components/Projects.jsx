@@ -3,11 +3,27 @@ import { useState, useEffect } from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import project1Image from "../assets/profile3.jpg";
 import project2Image from "../assets/profile4.png";
-
-
-
-
+import todoImage from "../assets/todo.png";
 const projects = [
+  {
+  title: "TodoPro",
+  description:
+    "A full-stack task management application designed for real-world productivity. Users can create, organize, filter, and track tasks with priorities, tags, and due dates. Built with a clean UI, secure authentication, CSV export, and a scalable backend architecture. Email reminders are implemented locally and intentionally deferred in production due to free hosting constraints.",
+  techStack: [
+    "React",
+    "Tailwind CSS",
+    "Framer Motion",
+    "FastAPI",
+    "MongoDB",
+    "JWT",
+    "Netlify",
+    "Render",
+  ],
+  github: "https://github.com/KalyankumarKummara/todo_frontend",
+  demo: "https://app-todopro.netlify.app",
+  image : todoImage,
+},
+
   {
     title: "Student Internship Management System",
     description:
