@@ -30,7 +30,7 @@ const Experience = () => {
       role: "Fullstack Developer Intern",
       company: "Pictuscode",
       location: "Vellore",
-      duration: "May 2025 – Jul 2025",
+      duration: "May – Jul 2025,  Dec 2025 - Apr 2026",
       points: [
         "Misafir – Airbnb-like website for Turkey users with responsive UI and secure booking system.",
         "Invoice Generation System – Automated invoice creation for office usage with FastAPI backend.",
